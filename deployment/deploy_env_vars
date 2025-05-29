@@ -14,7 +14,7 @@ ingress_host=dg0406.20.214.196.128.nip.io
 
 # Security Settings
 jwt_secret_key=8O2HQ13etL2BWZvYOiWsJ5uWFoLi6NBUG8divYVoCgtHVvlk3dqRksMl16toztDUeBTSIuOOPvHIrYq11G2BwQ
-postgres_user=admin
+postgres_user=dg0406
 postgres_password=Hi5Jessica!
 
 # Resource Settings
