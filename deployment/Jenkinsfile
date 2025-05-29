@@ -194,7 +194,7 @@ testcontainers.reuse.enable=true'''
 
             container('azure-cli') {
                 sh """
-                    kubectl apply -f deployment/${manifest}
+                    kubectl apply -f deployment/${manifest} --force-conflicts --server-side=true
 
                     echo "Waiting for deployments to be ready..."
                     kubectl -n ${namespace} wait --for=condition=available deployment/member --timeout=300s
